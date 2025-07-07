@@ -1,3 +1,5 @@
+//정렬 + 개수 세기
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -6,7 +8,7 @@ using namespace std;
 
 
 int main(){
-    ios::sync_with_stdio(false);
+    ios::sync_with_stdio(false); //속도 빠르게(입출력시 버퍼 flush 자동화 끊음)
     cin.tie(0);
     
     int n,m;
