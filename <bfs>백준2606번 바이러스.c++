@@ -32,7 +32,7 @@ int main(){
     for(int i=0;i<adj;i++){
         int a,b;
         cin>>a>>b;
-        graph[a].push_back(b);
+        graph[a].push_back(b);// 인접리스트 구현부
         graph[b].push_back(a);
     }
     cout<<bfs(1);
